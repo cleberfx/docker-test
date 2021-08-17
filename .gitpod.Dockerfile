@@ -1,4 +1,4 @@
-FROM cloudera/quickstart
+FROM cloudera/quickstart:latest
 
 USER gitpod
 
