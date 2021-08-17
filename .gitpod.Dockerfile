@@ -1,6 +1,6 @@
-FROM cloudera/quickstart:latest
+FROM gitpod/workspace-full
 
-USER cloudera
+USER gitpod
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
@@ -10,3 +10,7 @@ USER cloudera
 #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/config-docker/
+
+FROM cloudera/quickstart:latest
+
+USER cloudera
