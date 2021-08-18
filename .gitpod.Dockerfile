@@ -11,6 +11,4 @@ USER gitpod
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-FROM cloudera/quickstart:latest
 
-USER cloudera
