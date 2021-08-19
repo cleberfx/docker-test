@@ -3,3 +3,4 @@ image:
   
 ports:
 - port: 6080  
+- port: 4000
